@@ -1,5 +1,6 @@
 public class Application {
 public static void main(String[] args){
-	System.out.println("Hello world Git and Java cmd tools");
+	Person person = new Person("Panagiotis",34);
+	System.out.println(person);
 }
 }
